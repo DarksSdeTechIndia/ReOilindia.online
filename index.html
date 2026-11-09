@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReOiLindia - Waste Oil to Green Fuel</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+:root{--green:#0B3D1F;--gold:#C9A227;--light:#FFF8E1;--dark:#111}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 5%;background:#fff;position:sticky;top:0;box-shadow:0 2px 10px rgba(0,0,0,.08);z-index:10}
+.logo{font-size:32px;font-weight:800;color:var(--green)}
+.logo span{color:var(--gold)}
+.logo small{display:block;font-size:11px;letter-spacing:3px;color:var(--green);font-weight:400}
+nav a{margin:0 14px;text-decoration:none;color:var(--green);font-weight:600}
+.call{background:var(--green);color:#fff;padding:10px 18px;border-radius:30px;text-decoration:none;font-weight:700}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:60px 5%;background:linear-gradient(90deg,#fff 60%,#FFF8E1)}
+.hero h1{font-size:52px;color:var(--green);line-height:1.1}
+.hero p{margin:16px 0 24px;color:#444;font-size:18px;max-width:520px}
+.btn{display:inline-block;padding:14px 26px;border-radius:30px;text-decoration:none;font-weight:700}
+.btn-gold{background:var(--gold);color:#fff}
+.btn-outline{border:2px solid var(--green);color:var(--green);margin-left:10px}
+.drop{font-size:150px;text-align:center;filter:drop-shadow(0 0 20px #FFD700)}
+.stats{background:var(--green);color:#fff;display:flex;justify-content:space-around;padding:24px 5%;text-align:center}
+.stats b{color:var(--gold);font-size:26px;display:block}
+.section{padding:50px 5%}
+.section h2{text-align:center;color:var(--green);font-size:32px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid #eee;padding:24px;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(0,0,0,.05)}
+.card h3{color:var(--green);margin-bottom:8px}
+.card p{color:#555}
+.contact{background:var(--green);color:#fff;display:flex;justify-content:space-between;padding:50px 5%;gap:30px}
+.contact h2{color:var(--gold)}
+.contact a{color:#fff}
+form{background:#fff;padding:20px;border-radius:16px;width:100%;max-width:400px}
+form input,form textarea{width:100%;padding:12px;margin-bottom:12px;border:1px solid #ddd;border-radius:10px}
+form button{width:100%;padding:14px;background:var(--gold);border:0;border-radius:10px;font-weight:800;cursor:pointer}
+footer{text-align:center;padding:16px;background:#062412;color:#fff;font-size:14px}
+@media(max-width:800px){.hero,.contact{flex-direction:column}.grid{grid-template-columns:1fr}nav{display:none}.hero h1{font-size:36px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ReOiL<span>india</span><small>WASTE OIL TO GREEN FUEL</small></div>
+  <nav><a href="#">Home</a><a href="#how">How It Works</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+  <a class="call" href="tel:+918871967402">📞 +91-8871967402</a>
+</header>
+
+<section class="hero">
+  <div>
+    <span style="background:#FFE99A;padding:6px 12px;border-radius:20px;font-size:13px;font-weight:700">🌿 Sustainable • Eco-Friendly • Circular Economy</span>
+    <h1>Waste Oil to<br>Green Fuel</h1>
+    <p>We collect, recycle, and transform used cooking oil and waste oil into clean, sustainable green fuel for a greener tomorrow.</p>
+    <a href="#contact" class="btn btn-gold">🚚 Get Free Pickup</a>
+    <a href="tel:+918871967402" class="btn btn-outline">📞 +91-8871967402</a>
+    <div style="margin-top:20px">📍 Doorstep Collection &nbsp; ♻️ 100% Eco Process &nbsp; ✅ Certified & Safe</div>
+  </div>
+  <div class="drop">🛢️✨</div>
+</section>
+
+<div class="stats">
+  <div><b>5000+</b>Pickups Completed</div>
+  <div><b>200+</b>Trusted Partners</div>
+  <div><b>1M+</b>Litres Recycled</div>
+  <div><b>99.8%</b>Satisfaction</div>
+</div>
+
+<section class="section" id="how">
+  <h2>How It Works</h2>
+  <div class="grid">
+    <div class="card"><h3>1. Schedule a Pickup</h3><p>Book a free pickup online or call us. We arrive at your location at your convenient time.</p></div>
+    <div class="card"><h3>2. We Collect & Process</h3><p>Our team collects waste oil safely and processes it using eco-friendly recycling technology.</p></div>
+    <div class="card"><h3>3. Convert to Green Fuel</h3><p>The waste oil is transformed into clean biodiesel / green fuel, reducing carbon footprint.</p></div>
+  </div>
+</section>
+
+<section class="section" id="services" style="background:#FFF8E1">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card"><h3>🍃 Waste Oil Collection</h3><p>Environmentally friendly process that cuts CO2 emissions significantly.</p></div>
+    <div class="card"><h3>🛡️ Oil Recycling & Processing</h3><p>Licensed, safe, and compliant with environmental standards.</p></div>
+    <div class="card"><h3>⛽ Green Fuel Supply</h3><p>Supply of sustainable biodiesel for industries, transport, and generators.</p></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div>
+    <h2>Get In Touch</h2>
+    <p style="margin:10px 0"><b>Owner: Tabish Ahmed</b><br>Collector & Company Owner</p>
+    <p>📍 India • Serving Nationwide</p>
+    <p>📞 <a href="tel:+918871967402">+91-8871967402</a></p>
+    <p>✉️ contact@reoilindia.com</p>
+    <p style="margin-top:16px;opacity:.9">"ReOiLindia has made it so easy for us to dispose of our waste oil responsibly. The team is professional, on time, and we even earn from it now!"<br><b>- Rahul Sharma, Restaurant Partner, Mumbai</b></p>
+  </div>
+  <form onsubmit="alert('Thank you! Tabish Ahmed will contact you soon on +91-8871967402');return false;">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <textarea placeholder="Tell us about your requirement..." rows="3"></textarea>
+    <button type="submit">Submit Inquiry</button>
+  </form>
+</section>
+
+<footer>© 2026 ReOiLindia. All Rights Reserved. | Owner: Tabish Ahmed | +91-8871967402 | Privacy Policy | Terms</footer>
+
+</body>
+</html>
